@@ -24,17 +24,17 @@ export default function Home() {
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      <img className="object-cover object-center rounded lg:ml-10 h-60" alt="hero" src="/logo.png"/>
+      <img className="object-cover object-center rounded lg:ml-10 h-60 m-auto" alt="hero" src="/logo.png"/>
     </div>
   </div>
 </section>
 <section className="text-gray-600 body-font">
     
-                <div className="container px-5  mx-auto">
+                <div className="container px-5 mx-auto">
                 <h1 className='text-3xl text-black font-bold py-4 text-center'>Plans available</h1>
                     <div className="flex flex-wrap -m-4">
                     
-                                <div className="p-4 lg:w-1/3">
+                                <div className="p-4 lg:w-1/3 m-auto">
                                     <div className="h-full bg-pink-300 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative shadow-lg">
                                     <MdOutlineDoneOutline className='text-3xl m-auto'/>
                                         <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Basic</h1>
@@ -42,7 +42,7 @@ export default function Home() {
                                         <p className="leading-relaxed mb-3 w-64 text-center m-auto my-2">`&ldquo;`We will be given a banner month every day of Festival, Birthday, Birth Anniversary, Special day ex.`&rdquo;`</p>
                                     </div>
                                 </div> 
-                                <div className="p-4 lg:w-1/3">
+                                <div className="p-4 lg:w-1/3 m-auto">
                                 <div className="h-full bg-green-300 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative shadow-lg">
                                 <MdOutlineDoneOutline className='text-3xl m-auto'/>
                                         <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Pro</h1>
@@ -50,7 +50,7 @@ export default function Home() {
                                         <p className="leading-relaxed mb-3 w-64 text-center m-auto my-2">`&ldquo;`We will be given a Customized banner month every day of festival,Birthday, Birth Anniversary, Special day ex. & social media handling free.`&rdquo;`</p>
                                     </div>
                                 </div> 
-                                <div className="p-4 lg:w-1/3">
+                                <div className="p-4 lg:w-1/3 m-auto">
                                 <div className="h-full bg-blue-300 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative shadow-lg">
                                 <MdOutlineDoneOutline className='text-3xl m-auto'/>
                                         <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Ultimate</h1>
