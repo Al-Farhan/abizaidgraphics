@@ -40,7 +40,7 @@ export default function Home() {
                                     <MdOutlineDoneOutline className='text-3xl m-auto'/>
                                         <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Basic</h1>
                                         <h1 className='text-red-600 text-4xl font-bold'>₹1,500</h1>
-                                        <p className="leading-relaxed mb-3 w-64 text-center m-auto my-2">`&ldquo;`We will be given a banner month every day of Festival, Birthday, Birth Anniversary, Special day ex.`&rdquo;`</p>
+                                        <p className="leading-relaxed mb-3 w-64 text-center m-auto my-2">&ldquo;We will be given a banner month every day of Festival, Birthday, Birth Anniversary, Special day ex.&rdquo;</p>
                                     </div>
                                 </div> 
                                 <div className="p-4 lg:w-1/3 m-auto">
@@ -48,7 +48,7 @@ export default function Home() {
                                 <MdOutlineDoneOutline className='text-3xl m-auto'/>
                                         <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Pro</h1>
                                         <h1 className='text-red-600 text-4xl font-bold'>₹3,000</h1>
-                                        <p className="leading-relaxed mb-3 w-64 text-center m-auto my-2">`&ldquo;`We will be given a Customized banner month every day of festival,Birthday, Birth Anniversary, Special day ex. & social media handling free.`&rdquo;`</p>
+                                        <p className="leading-relaxed mb-3 w-64 text-center m-auto my-2">&ldquo;We will be given a Customized banner month every day of festival,Birthday, Birth Anniversary, Special day ex. & social media handling free.&rdquo;</p>
                                     </div>
                                 </div> 
                                 <div className="p-4 lg:w-1/3 m-auto">
@@ -56,7 +56,7 @@ export default function Home() {
                                 <MdOutlineDoneOutline className='text-3xl m-auto'/>
                                         <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Ultimate</h1>
                                         <h1 className='text-red-600 text-4xl font-bold'>₹10,000</h1>
-                                        <p className="leading-relaxed mb-3 w-64 text-center m-auto my-2">`&ldquo;`We will be given a 3, 4 banner every day in month of Festival, Birthday, Birth Anniversary, Special day ex. Social media handling free.`&rdquo;`</p>
+                                        <p className="leading-relaxed mb-3 w-64 text-center m-auto my-2">&ldquo;We will be given a 3, 4 banner every day in month of Festival, Birthday, Birth Anniversary, Special day ex. Social media handling free.&rdquo;</p>
                                     </div>
                                 </div> 
                     </div>
