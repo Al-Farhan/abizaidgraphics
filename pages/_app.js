@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }) {
   <LoadingBar
         color='red'
         progress={progress}
-        waitingTime = {400}
+        waitingTime = {1000}
         onLoaderFinished={() => setProgress(0)}
       />
   <Navbar/>
