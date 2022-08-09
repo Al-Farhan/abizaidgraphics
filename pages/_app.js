@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter()
   useEffect(() => {
     router.events.on('routeChangeStart', ()=>{
-      setProgress(50)
+      setProgress(40)
     })
     router.events.on('routeChangeComplete', ()=>{
       setProgress(100)
