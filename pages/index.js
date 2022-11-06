@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 import Image from 'next/image'
 import Link from 'next/link'
 import {MdOutlineDoneOutline} from 'react-icons/md'
@@ -10,7 +11,43 @@ export default function Home() {
         <title>Abizaid Graphics: Now available in your town.</title>
         <meta name="description" content="Abizaid Graphics: A best solution for Grphics designing" />
         <link rel="icon" href="/favicon.ico" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossOrigin="anonymous"/>
+
       </Head>
+
+      <div id="carouselExampleDark" className="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active" data-bs-interval="10000">
+      <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg" className="d-block w-100" alt="..."/>
+      
+    </div>
+    <div className="carousel-item" data-bs-interval="2000">
+      <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" className="d-block w-100" alt="..."/>
+      
+    </div>
+    <div className="carousel-item">
+      <img src="https://i.pinimg.com/originals/8d/63/19/8d6319bdb4657312ad4ca80e3dc876b1.jpg" className="d-block w-100" alt="..."/>
+      
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+
+  <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></Script>
+<Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></Script>
+</div>
+
       <section className="text-gray-600 body-font bg-slate-100">
   <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -32,14 +69,14 @@ export default function Home() {
 
 {/* Services section */}
 
-<section className=''>
+{/* <section className=''>
   <h1 className='font-bold text-center text-4xl mt-3 p-4 mb-3'>Our Services</h1>
   <div className='text-center'>
   <img src="/service1.jpg" alt="" className='inline px-2 mx-3 space-x-2' width={350} height={350}/>
   <img src="/service2.png" alt="" className='inline px-2 mx-3 space-x-2' width={350} height={350}/>
   <img src="/service3.jpg" alt="" className='inline px-2 mx-3 space-x-2' width={350} height={350}/>
   </div>
-</section>
+</section> */}
 
 <section className="text-gray-600 body-font mt-4">
     

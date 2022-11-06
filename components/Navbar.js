@@ -11,6 +11,7 @@ const Navbar = () => {
         <div className="nav">
             <ul className="flex items-center space-x-4 font-bold md:text-md lg:mx-6">
                 <Link href={'/'}><a><li className='hover:text-red-700 active:text-red-800'>Home</li></a></Link>
+                <Link href={'/plan'}><a><li className='hover:text-red-700 active:text-red-800'>Plans</li></a></Link>
                 <Link href={'/about'}><a><li className='hover:text-red-700'>About</li></a></Link>
                 <Link href={'/gallery'}><a><li className='hover:text-red-700'>Gallery</li></a></Link>
                 <Link href={'/contact'}><a><li className='hover:text-red-700'>Contact us</li></a></Link>
