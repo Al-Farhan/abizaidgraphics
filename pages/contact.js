@@ -1,4 +1,6 @@
+import Link from 'next/link';
 import React from 'react'
+import {FaWhatsapp} from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -15,8 +17,8 @@ const Contact = () => {
         <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
           <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs">EMAIL</h2>
           <a className="text-red-600 leading-relaxed">shaikhabizaid786@gmail.com</a>
-          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">PHONE</h2>
-          <p className="leading-relaxed">123-456-7890</p>
+          <h2 className="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4"><FaWhatsapp className='text-2xl inline'/> WHATSAPP</h2>
+          <Link href={'https://wa.me/917880955388'} className='hover:cursor-pointer'><p className="leading-relaxed"><a>+917880955388</a></p></Link>
         </div>
       </div>
     </div>
