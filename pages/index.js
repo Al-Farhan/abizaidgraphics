@@ -22,7 +22,7 @@ export default function Home() {
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="10000">
+    <div className="carousel-item active" data-bs-interval="3000">
       <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg" className="d-block w-100" alt="..."/>
       
     </div>
