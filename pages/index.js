@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Abizaid Graphics: Now available in your town.</title>
+        <title>Abizaid Graphics: .</title>
         <meta name="description" content="Abizaid Graphics: A best solution for Grphics designing" />
         <link rel="icon" href="/favicon.ico" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossOrigin="anonymous"/>
@@ -23,15 +23,7 @@ export default function Home() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active" data-bs-interval="3000">
-      <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg" className="d-block w-100" alt="..."/>
-      
-    </div>
-    <div className="carousel-item" data-bs-interval="2000">
-      <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" className="d-block w-100" alt="..."/>
-      
-    </div>
-    <div className="carousel-item">
-      <img src="https://i.pinimg.com/originals/8d/63/19/8d6319bdb4657312ad4ca80e3dc876b1.jpg" className="d-block w-100" alt="..."/>
+      <img src="/slider1.jpg" className="d-block w-100" alt="..."/>
       
     </div>
   </div>

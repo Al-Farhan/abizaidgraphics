@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Plan = () => {
   return (
@@ -49,11 +50,13 @@ const Plan = () => {
               </svg>
             </span>Special Day (विशेष दिन)
           </p>
+          <Link href={"https://wa.me/917880955388"}>
           <button className="flex items-center mt-auto text-white bg-red-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-600 rounded">Book Now
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
+          </Link>
           
         </div>
       </div>
@@ -101,11 +104,13 @@ const Plan = () => {
               </svg>
             </span>Social media handling free.
           </p>
+          <Link href={"https://wa.me/917880955388"}>
           <button className="flex items-center mt-auto text-white bg-red-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-500 rounded">Book Now
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
+          </Link>
           
         </div>
       </div>
@@ -153,11 +158,13 @@ const Plan = () => {
               </svg>
             </span>Social media handling free.
           </p>
+          <Link href={"https://wa.me/917880955388"}>
           <button className="flex items-center mt-auto text-white bg-red-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-red-500 rounded">Book Now
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-auto" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </button>
+          </Link>
         </div>
       </div>
     </div>
